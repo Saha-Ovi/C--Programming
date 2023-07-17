@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{   int tk;
+    scanf("%d",&tk);
+    
+    if(tk>=10000) {
+        
+        printf("Buy a gucci bag\n");
+        if(tk>20000)
+        {
+            printf("buy a gucci belt");
+        }
+   
+}
+    else if (tk>=5000)
+    {
+        printf("Buy a levis bag");
+    }
+           
+
+    else{
+        printf("Buy something");
+    }
+    return 0;
+}
